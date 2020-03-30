@@ -6,14 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Archives | My Blog</title>
+  <title>Linux笔记 | My Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="My Blog">
-<meta property="og:url" content="http://yoursite.com/archives/index.html">
+  <meta name="description" content="Linux命令 whoami命令使用whoami命令或who am i 命令可以获取当前登录用户信息">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Linux笔记">
+<meta property="og:url" content="http://yoursite.com/2020/03/30/Linux%E7%AC%94%E8%AE%B0/index.html">
 <meta property="og:site_name" content="My Blog">
+<meta property="og:description" content="Linux命令 whoami命令使用whoami命令或who am i 命令可以获取当前登录用户信息">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2020-03-30T12:32:23.000Z">
+<meta property="article:modified_time" content="2020-03-30T12:56:15.296Z">
 <meta property="article:author" content="yanhuo">
+<meta property="article:tag" content="学习">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="My Blog" type="application/atom+xml">
@@ -150,36 +155,135 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-Linux笔记" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2020" class="archive-year">2020</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2020/03/30/Linux%E7%AC%94%E8%AE%B0/" class="archive-article-date">
-  	<time datetime="2020-03-30T12:32:23.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-03-30</time>
-</a>
-        </div>
-    	 
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/03/30/Linux%E7%AC%94%E8%AE%B0/">Linux笔记</a>
+    <h1 class="article-title" itemprop="name">
+      Linux笔记
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
+        
+        <a href="/2020/03/30/Linux%E7%AC%94%E8%AE%B0/" class="archive-article-date">
+  	<time datetime="2020-03-30T12:32:23.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-03-30</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="Linux命令"><a href="#Linux命令" class="headerlink" title="Linux命令"></a>Linux命令</h1><hr>
+<h2 id="whoami命令"><a href="#whoami命令" class="headerlink" title="whoami命令"></a>whoami命令</h2><p><strong>使用whoami命令或who am i 命令可以获取当前登录用户信息</strong></p>
+<a id="more"></a>
+
+<hr>
+<h2 id="who、w、users、tty命令"><a href="#who、w、users、tty命令" class="headerlink" title="who、w、users、tty命令"></a>who、w、users、tty命令</h2><ul>
+<li><strong>who命令：获取目前哪些用户在系统上工作</strong></li>
+<li><strong>w命令：类似who命令，获取的信息比who命令要多</strong></li>
+<li><strong>users命令：只获取哪些用户登录了系统</strong></li>
+<li><strong>tty命令：获取目前登陆用户使用的终端</strong></li>
+</ul>
+<hr>
+<h2 id="uname命令及带有选项的命令"><a href="#uname命令及带有选项的命令" class="headerlink" title="uname命令及带有选项的命令"></a>uname命令及带有选项的命令</h2><ul>
+<li><strong>uname命令：获取系统本身信息</strong><ul>
+<li>-n：显示系统主机名</li>
+<li>-i：显示硬件平台名</li>
+<li>-r：显示操作系统发布的版本信息</li>
+<li>-s：显示操作系统名</li>
+<li>-m：显示机器硬件名</li>
+<li>-p：显示中央处理器类型</li>
+<li>-a：显示所有信息</li>
+</ul>
+</li>
+</ul>
+<p><strong>注：Linux带选项的命令可以使用完整单词，但要用“ –”</strong></p>
+<hr>
+<h2 id="date、cal和clear命令及带有参数的命令"><a href="#date、cal和clear命令及带有参数的命令" class="headerlink" title="date、cal和clear命令及带有参数的命令"></a>date、cal和clear命令及带有参数的命令</h2><ul>
+<li><p><strong>date命令：用于显示系统当前的时间和日期</strong></p>
+</li>
+<li><p><strong>cal命令：用来显示某月日历</strong></p>
+<ul>
+<li>cal 月份 年</li>
+</ul>
+</li>
+<li><p><strong>clear命令：清除终端窗口显示</strong></p>
+</li>
+</ul>
+<hr>
+<h2 id="su和passwd命令"><a href="#su和passwd命令" class="headerlink" title="su和passwd命令"></a>su和passwd命令</h2><ul>
+<li><p><strong>su命令：将当前用户切换到指定的其他用户</strong></p>
+<ul>
+<li>$：普通用户</li>
+<li>#：root用户（exit退出）</li>
+</ul>
+</li>
+<li><p><strong>passwd：修改密码</strong></p>
+<ul>
+<li>-S 用户名：查看某一用户密码的状态</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="whatis命令与命令的–help选项"><a href="#whatis命令与命令的–help选项" class="headerlink" title="whatis命令与命令的–help选项"></a>whatis命令与命令的–help选项</h2><ul>
+<li><strong>whatis命令：显示查询的命令说明</strong></li>
+<li><strong>–help：显示命令的简要说明和选项列表</strong></li>
+</ul>
+<hr>
+<h2 id="命令使用摘要"><a href="#命令使用摘要" class="headerlink" title="命令使用摘要"></a>命令使用摘要</h2><ul>
+<li><strong>[]中的选项或参数为可选，选项间用“|”分隔表示只能选其中一个</strong></li>
+<li><strong>&lt;&gt;中的选项或参数为参数</strong></li>
+</ul>
+<hr>
+<h2 id="利用man命令来获取帮助信息"><a href="#利用man命令来获取帮助信息" class="headerlink" title="利用man命令来获取帮助信息"></a>利用man命令来获取帮助信息</h2><ul>
+<li><strong>Man Page在/usr/share/man目录下</strong></li>
+<li><strong>经常使用的有第1、5、8部分</strong><ul>
+<li>第1部分：用户命令，包括一般用户可以使用的命令的说明</li>
+<li>第5部分：查询命令文件的说明</li>
+<li>第8部分：管理命令，查询只有root可以使用的命令说明</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="浏览Man-Pages"><a href="#浏览Man-Pages" class="headerlink" title="浏览Man Pages"></a>浏览Man Pages</h2><ul>
+<li><strong>上下左右键移动</strong></li>
+<li><strong>PgUp或PgDn（或空格）上移或下移一页</strong></li>
+<li><strong>Home键到第一页，End键到最后一页</strong></li>
+<li><strong>在终端屏幕低端的“：”输入/string向下搜索字符串string，？string向上搜索，按n键下一个，N键上一个</strong></li>
+<li><strong>按q键退出</strong></li>
+</ul>
+<hr>
+
+      
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
@@ -191,84 +295,106 @@
 		</ul>
 	</div>
 
-          
+      
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2020/03/30/Linux%E7%AC%94%E8%AE%B0/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2020/03/27/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/" class="archive-article-date">
-  	<time datetime="2020-03-27T07:56:38.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-03-27</time>
-</a>
+<nav id="article-nav">
+  
+  
+    <a href="/2020/03/27/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">第一篇博客文章</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
+        
+        
+    </div>
+</aside>
+
+
+
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/03/27/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/">第一篇博客文章</a>
-    </h1>
+  
   
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">随笔</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2020/03/27/hello-world/" class="archive-article-date">
-  	<time datetime="2020-03-27T07:36:06.593Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-03-27</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/03/27/hello-world/">Hello World</a>
-    </h1>
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
   
 
-    
+  
 
 
           </div>
@@ -291,8 +417,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
